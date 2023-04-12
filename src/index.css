@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.navbar div{
+  /*border:1px solid;*/
+}
+main{
+
+  height: 100%;
+  display: flex;
+}
+
+main div{
+  /*border:1px solid blue;*/
+}
+
+.menumodal{
+  width:260px;
+  height:800px;
+  z-index: 999;
+
+  position: absolute;
+
+  box-shadow: rgba(0,0,0,0.8)0 0 0 9999px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.loginmodal{
+  width:400px;
+  height:600px;
+  z-index: 999;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  box-shadow: rgba(0,0,0,0.8)0 0 0 9999px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.registermodal{
+  width:400px;
+  height:600px;
+  z-index: 999;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  box-shadow: rgba(0,0,0,0.8)0 0 0 9999px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+#footer{
+  display: flex;
+  height: 100px;
+  text-align: center;
+}
+
+#footerleft{
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footercenter{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footerright{
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  #left{
+    display: none;
+  }
+  #right{
+    display: none;
+  }
+  #footer{
+    /*display: none;*/
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+  }
+  #footerleft{
+    width: 100%;
+  }
+  #footercenter{
+    width: 100%;
+  }
+  #footerright{
+    display: none;
+  }
+}
+
+.check_ok
+{
+  color: aqua;
+}
+
+
+.border{
+  border: red 1px solid;
+}

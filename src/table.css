@@ -1,0 +1,76 @@
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+
+    width: 800px;
+}
+
+table{
+    text-align: center;
+    border: 1px #a39485 solid;
+    font-size: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+.table-header{
+    background-color: rgba(255,255,255,0.3);
+}
+.table-content{
+    height:500px;
+    margin-top: 2px;
+    border: 1px solid rgba(255,255,255,0.3);
+    overflow-x:auto;
+}
+
+.pagenation button{
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+    /*border: none;*/
+    border-radius: 70px;
+    color: black;
+    /*background-color: #f5ede1;*/
+}
+.pagenation button:hover{
+    background-color: #f2e0c2;
+    transition: 0.7s;
+}
+/*th, td{*/
+/*    padding: 1em .5em;*/
+/*    vertical-align: middle;*/
+/*}*/
+th{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    /*vertical-align:middle;*/
+    /*font-weight: 300;*/
+    font-size: 12px;
+
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    /*background: #fff;*/
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
